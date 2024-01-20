@@ -1,4 +1,5 @@
 <?php
+//Explode function
 $name = "Spongebob Squarepants";
 $full_name = explode(" ", $name); //full name is array. Take each portion as an array and place them as new elements inside array
 foreach ($full_name as $name) {
@@ -8,6 +9,7 @@ foreach ($full_name as $name) {
 //Spongebob
 //Squarepants
 
+//Implode function. Turns array into string
 $aUsername = array("Sponge", "bob", " Square", "pants");
 $aUsername = implode(" ", $aUsername);
 echo $aUsername . "<br>";
